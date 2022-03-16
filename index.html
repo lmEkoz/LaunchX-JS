@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokedex by Ekoz</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+        <div>
+            Enter Pokémon to search: <input type="text" placeholder="Pikachu" name="pokemonName" id="pokemonName">
+            <button onclick = 'searchPokemon()'>Search</button> 
+            <br><br><br><br><br><br>
+        </div>
+
+        <div class="centerDiv" id="pokemon_info">
+            <label id="pokemon"></label>
+            <br>
+        
+            <img src="./assets/pokeball.png" alt="pokemon" id="pokemonImg" width="150px">
+            <br>
+
+            <table>
+                <tr>
+                    <td><label id="pokemon_type"></label></td>
+                    <td><img src="" alt="pokemon type" id="pokemon_type_img" width="32px" hidden></td>
+                </tr>
+                <tr>
+                    <td><label id="pokemon_type1"></label></td>
+                    <td><img src="" alt="pokemon type" id="pokemon_type_img1" width="32px" hidden></td>
+                </tr>
+                <tr>
+                    <td id="pokemon_height_label"></td>
+                    <td id="pokemon_height"></td>
+                </tr>
+                <tr>
+                    <td id="pokemon_weight_label"></td>
+                    <td id="pokemon_weight"></td>
+                </tr>
+                <tr>
+                    <td><label id="pokemon_xp"></label></td>
+                    <td><label id="pokemon_base_xp"></label></td>
+                </tr>
+                <tr>
+                    <td><label id="pokemon_ability"></label></td>
+                    <td><label id="ability0"></label></td>
+                    <td><label id="ability1"></label></td>
+                </tr>
+                <tr>
+                    <td><label id="pokemon_stats"></label></td>
+                    <td><label id="hp"></label></td>
+                    <td><label id="base_hp"></label></td>
+                    <td><label id="attack"></label></td>
+                    <td><label id="base_attack"></label></td>
+                    <td><label id="defense"></label></td>
+                    <td><label id="base_defense"></label></td>
+                    <td><label id="sp_attack"></label></td>
+                    <td><label id="base_sp_attack"></label></td>
+                    <td><label id="sp_defense"></label></td>
+                    <td><label id="base_sp_defense"></label></td>
+                    <td><label id="speed"></label></td>
+                    <td><label id="base_speed"></label></td>
+
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
